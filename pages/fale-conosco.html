@@ -1,0 +1,123 @@
+<section id="section-fale-conosco" class="section-fale-conosco">
+    <div class="banner d-flex pt-5">
+        <h1 class="banner-title m-auto">Prometemos Dedicação Médica, Honestidade, <br> Carinho e Respeito por você e sua
+            Família.</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="agendamento py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="servicos-title">Agendar consulta</h1>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center mt-4">
+                <div class="agendamento-wrapper">
+                    <div class="agendamento-item">
+                        <img class="agendamento-icon" src="assets/img/call-answer.svg"
+                            alt="Telefone Instituto de Olhos Humberto Cunha">
+                        <p class="agendamento-data mb-4">Telefone: (61) 3364-0001 | 3364-0172</p>
+                    </div>
+
+                    <div class="agendamento-item">
+                        <img class="agendamento-icon" src="assets/img/agenda-whatsapp.svg"
+                            alt="Whatsapp Instituto de Olhos Humberto Cunha">
+                        <p class="agendamento-data mb-4">WhatsApp: (61) 98649-1192</p>
+                    </div>
+
+                    <div class="agendamento-item">
+                        <img class="agendamento-icon" src="assets/img/agenda-email.svg"
+                            alt="E-mail Instituto de Olhos Humberto Cunha">
+                        <p class="agendamento-data mb-4">atendimento<wbr>@<wbr>humbertocunha.com.br</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <form action="#" method="POST" class="needs-validation" novalidate>
+                    <div class="form-row">
+                        <div class="form-group col-12">
+                            <label class="agendamento-label" for="name">Nome Completo</label>
+                            <input type="name" name="name" id="name" class="form-control agendamento-input"
+                                placeholder="Seu nome" required>
+                            <div class="invalid-feedback">
+                               Por favor, insira o seu nome.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-12 col-md-6">
+                            <label class="agendamento-label" for="email">E-mail</label>
+                            <input type="email" name="email" id="email" class="form-control agendamento-input"
+                                placeholder="Seu e-mail" required>
+                            <div class="invalid-feedback">
+                                Por favor, insira o seu E-mail.
+                            </div>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label class="agendamento-label" for="tel">Telefone</label>
+                            <input type="tel" name="tel" id="tel" class="form-control agendamento-input"
+                                placeholder="Seu telefone" required>
+                            <div class="invalid-feedback">
+                                Por favor, insira o seu Telefone.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-12 col-md-6">
+                            <label class="agendamento-label" for="especialidade">Especialidade</label>
+                            <input type="text" name="especialidade" id="especialidade"
+                                class="form-control agendamento-input" placeholder="Especialidade" required>
+                            <div class="invalid-feedback">
+                                Por favor, insira a especialidade desejada.
+                            </div>
+                        </div>
+                        <div class="form-group col-12 col-md-6">
+                            <label class="agendamento-label" for="date">Data</label>
+                            <input type="date" name="date" id="date" class="form-control agendamento-input"
+                                placeholder="dd/mm/aaaa" required>
+                            <div class="invalid-feedback">
+                                Por favor, insira a data desejada.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-12">
+                            <label class="agendamento-label" for="mensagem">Deixe uma Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" class="form-control agendamento-input" rows="5"
+                                placeholder="Escreva aqui a sua mensagem..."></textarea>
+                        </div>
+                        <div class="form-group col-12 text-right">
+                            <button class="btn agendamento-btn" type="submit">Agendar</button>
+                        </div>
+                    </div>
+                </form>
+                <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                        'use strict';
+                        window.addEventListener('load', function () {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                                form.addEventListener('submit', function (event) {
+                                    if (form.checkValidity() === false) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                    }
+                                    form.classList.add('was-validated');
+                                }, false);
+                            });
+                        }, false);
+                    })();
+                </script>
+            </div>
+        </div>
+    </div>
+</section>

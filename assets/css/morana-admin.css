@@ -1,0 +1,861 @@
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/calibri-bold.ttf);
+}
+
+/* Estilos para dispositivos móveis pequenos*/
+@media (max-width: 374px) {
+    
+    .mobile-spacer {
+        padding-top: 145px;
+    }
+    
+    .produtos-tela {
+        min-height: 100vh;
+        padding-top: 20px;
+        transition: .4s;
+    }
+    
+    .page-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .search-wrapper {
+        display: inline-block;
+        border-radius: 5rem;
+        border: 1px solid #707070;
+        padding: 0px 10px;
+    }
+    
+    .search-icon {
+        width: 10%;
+        margin-right: 4%;
+        margin-left: 2%;
+    }
+    
+    .search-input {
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: #555555;
+        font-family: 'Roboto', sans-serif;
+        font-size: 69%;
+        font-weight: 400;
+    }
+    
+    .search-input:focus {
+        outline: none;
+    }
+    
+    .admin-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .admin-icon {
+        width: 20px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    
+    .admin-icon.is-closed {
+        width: 30px;
+        transition: .3s;
+    }
+    
+    .admin-type {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .admin-produto-img {
+        width: 80%;
+    }
+    
+    .admin-produto-description {
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        color: #000;
+        font-weight: 500;
+        margin-bottom: 3px;
+    }
+    
+    .admin-options-icon {
+        width: 18px;
+        cursor: pointer;
+    }
+    
+    .add-button {
+        cursor: pointer;
+        position: fixed;
+        bottom: 35px;
+        right: 25px;
+        width: 60px;
+        height: 60px;
+        border-radius: 5rem;
+        background-color: #09AF30;
+        padding: 15px;
+        z-index: 600;
+    }
+    
+    .add-icon {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-overlay {
+        background: #00000080;
+        position: relative;
+        height: 100vh;
+        top: -50px;
+        bottom: 0;
+        z-index: 99;
+        overflow: hidden;
+    }
+
+    .no-scroll {
+        overflow: hidden;
+    }
+    
+    .menu-lateral-mobile {
+        background: #e1e1e1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 80%;
+        padding-top: 145px;
+        z-index: 100;
+    }
+    
+    .menu-text-mobile {
+        max-height: 30px;
+        left: 0;
+        transition: 1s;
+    }
+    
+    .menu-lateral-link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .menu-lateral-link:hover {
+        color: #000;
+    }
+    
+    .menu-lateral-icon-mobile {
+        width: 30px;
+    }
+    
+    .row.link-active {
+        background-color: #fff;
+    }
+    
+    .modal-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #171717;
+    }
+    
+    .form-label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14.5px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 3px;
+    }
+    
+    .send-btn {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        border: none;
+        padding: 8px 30px;
+        transition: .3s;
+    }
+    
+    .send-btn:hover {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #ADADAD;
+        transition: .3s;
+    }
+    
+    .cancel-btn {
+        background-color: #fff;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid #adadad;
+        padding: 8px 25px;
+        transition: .3s;
+    }
+    
+    .cancel-btn:hover {
+        background-color: #000;
+        color: #fff;
+        transition: .3s;
+    }
+}
+/* Estilos para dispositivos móveis */
+@media (min-width: 375px) and (max-width: 700px) {
+    
+    .mobile-spacer {
+        padding-top: 145px;
+    }
+    
+    .produtos-tela {
+        min-height: 100vh;
+        padding-top: 20px;
+        transition: .4s;
+    }
+    
+    .page-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .search-wrapper {
+        display: inline-block;
+        border-radius: 5rem;
+        border: 1px solid #707070;
+        padding: 0px 10px;
+    }
+    
+    .search-icon {
+        width: 17px;
+        margin-right: 8px;
+        margin-left: 10px;
+    }
+    
+    .search-input {
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: #555555;
+        font-family: 'Roboto', sans-serif;
+        font-size: 80%;
+        font-weight: 400;
+    }
+    
+    .search-input:focus {
+        outline: none;
+    }
+    
+    .admin-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .admin-icon {
+        width: 20px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    
+    .admin-icon.is-closed {
+        width: 30px;
+        transition: .3s;
+    }
+    
+    .admin-type {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .admin-produto-img {
+        width: 80%;
+    }
+    
+    .admin-produto-description {
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        color: #000;
+        font-weight: 500;
+        margin-bottom: 3px;
+    }
+    
+    .admin-options-icon {
+        width: 18px;
+        cursor: pointer;
+    }
+    
+    .add-button {
+        cursor: pointer;
+        position: fixed;
+        bottom: 35px;
+        right: 25px;
+        width: 60px;
+        height: 60px;
+        border-radius: 5rem;
+        background-color: #09AF30;
+        padding: 15px;
+        z-index: 600;
+    }
+    
+    .add-icon {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-overlay {
+        background: #00000080;
+        position: relative;
+        height: 100vh;
+        top: -50px;
+        bottom: 0;
+        z-index: 99;
+        overflow: hidden;
+    }
+
+    .no-scroll {
+        overflow: hidden;
+    }
+    
+    .menu-lateral-mobile {
+        background: #e1e1e1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 80%;
+        padding-top: 145px;
+        z-index: 100;
+    }
+    
+    .menu-text-mobile {
+        max-height: 30px;
+        left: 0;
+        transition: 1s;
+    }
+    
+    .menu-lateral-link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .menu-lateral-link:hover {
+        color: #000;
+    }
+    
+    .menu-lateral-icon-mobile {
+        width: 30px;
+    }
+    
+    .row.link-active {
+        background-color: #fff;
+    }
+    
+    .modal-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #171717;
+    }
+    
+    .form-label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14.5px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 3px;
+    }
+    
+    .send-btn {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        border: none;
+        padding: 8px 30px;
+        transition: .3s;
+    }
+    
+    .send-btn:hover {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #ADADAD;
+        transition: .3s;
+    }
+    
+    .cancel-btn {
+        background-color: #fff;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid #adadad;
+        padding: 8px 25px;
+        transition: .3s;
+    }
+    
+    .cancel-btn:hover {
+        background-color: #000;
+        color: #fff;
+        transition: .3s;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width : 701px) and (max-width : 1023px) {
+    .mobile-spacer {
+        padding-top: 145px;
+    }
+
+    .produtos-tela {
+        min-height: 100vh;
+        padding-top: 20px;
+        transition: .4s;
+    }
+    
+    .page-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .search-wrapper {
+        display: inline-block;
+        border-radius: 5rem;
+        border: 1px solid #707070;
+        padding: 0px 10px;
+    }
+    
+    .search-icon {
+        width: 17px;
+        margin-right: 8px;
+        margin-left: 10px;
+    }
+    
+    .search-input {
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: #555555;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .search-input:focus {
+        outline: none;
+    }
+    
+    .admin-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .admin-icon {
+        width: 20px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    
+    .admin-icon.is-closed {
+        width: 30px;
+        transition: .3s;
+    }
+    
+    .admin-type {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .admin-produto-img {
+        width: 100%;
+    }
+    
+    .admin-produto-description {
+        font-family: 'Roboto', sans-serif;
+        font-size: 80%;
+        color: #000;
+        font-weight: 300;
+    }
+    
+    .admin-options-icon {
+        width: 18px;
+        cursor: pointer;
+    }
+    
+    .add-button {
+        cursor: pointer;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        width: 60px;
+        height: 60px;
+        border-radius: 5rem;
+        background-color: #09AF30;
+        padding: 15px;
+        z-index: 600;
+    }
+    
+    .add-icon {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu-overlay {
+        background: #00000080;
+        position: relative;
+        height: 100vh;
+        top: -50px;
+        bottom: 0;
+        z-index: 99;
+        overflow: hidden;
+    }
+
+    .no-scroll {
+        overflow: hidden;
+    }
+    
+    .menu-lateral-mobile {
+        background: #e1e1e1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        padding-top: 145px;
+        z-index: 100;
+    }
+    
+    .menu-text-mobile {
+        max-height: 30px;
+        left: 0;
+        transition: 1s;
+    }
+    
+    .menu-lateral.menu-closed {
+        width: 8%;
+        transition: width .4s;
+    }
+
+    .produtos-tela.menu-closed {
+        margin-left: 8%;
+        transition: .4s;
+    }
+    
+    .menu-lateral-link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .menu-lateral-link:hover {
+        color: #000;
+    }
+    
+    .menu-lateral-icon {
+        width: 30px;
+    }
+    
+    .row.link-active {
+        background-color: #fff;
+    }
+    
+    .modal-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #171717;
+    }
+    
+    .form-label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14.5px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 3px;
+    }
+    
+    .send-btn {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid transparent;
+        padding: 8px 30px;
+        transition: .3s;
+    }
+    
+    .send-btn:hover {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #ADADAD;
+        transition: .3s;
+    }
+    
+    .cancel-btn {
+        background-color: #fff;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid #adadad;
+        padding: 8px 25px;
+        transition: .3s;
+    }
+    
+    .cancel-btn:hover {
+        background-color: #000;
+        color: #fff;
+        transition: .3s;
+    }
+}
+
+/* Estilos para dispositivos Desktops e Laptops */
+@media (min-width: 1024px) {
+    .produtos-tela {
+        margin-left: 20%;
+        min-height: 100vh;
+        padding-top: 160px;
+        transition: .4s;
+    }
+    
+    .produtos-tela.menu-closed {
+        margin-left: 5%;
+        transition: .4s;
+    }
+    
+    .page-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .search-wrapper {
+        display: inline-block;
+        border-radius: 5rem;
+        border: 1px solid #707070;
+        padding: 0px 10px;
+    }
+    
+    .search-icon {
+        width: 17px;
+        margin-right: 8px;
+        margin-left: 10px;
+    }
+    
+    .search-input {
+        border: none;
+        padding: 0;
+        margin: 0;
+        color: #555555;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .search-input:focus {
+        outline: none;
+    }
+    
+    .admin-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .admin-icon {
+        width: 20px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    
+    .admin-icon.is-closed {
+        width: 30px;
+        transition: .3s;
+    }
+    
+    .admin-type {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .admin-produto-img {
+        width: 50%;
+    }
+    
+    .admin-produto-description {
+        font-family: 'Roboto', sans-serif;
+        font-size: 90%;
+        color: #000;
+        font-weight: 300;
+    }
+    
+    .admin-options-icon {
+        width: 18px;
+        cursor: pointer;
+    }
+    
+    .add-button {
+        cursor: pointer;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        width: 60px;
+        height: 60px;
+        border-radius: 5rem;
+        background-color: #09AF30;
+        padding: 15px;
+        z-index: 600;
+    }
+    
+    .add-icon {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu-lateral {
+        width: 20%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        padding-top: 140px;
+        bottom: 0;
+        background-color: #E1E1E1;
+        z-index: 0;
+        transition: width .4s;
+    }
+    
+    .menu-text.is-closed {
+        height: 0;
+        left: -200px;
+        transition: .5s;
+    }
+    
+    .menu-text {
+        max-height: 30px;
+        left: 0;
+        transition: 1s;
+    }
+    
+    .menu-lateral.menu-closed {
+        width: 5%;
+        transition: width .4s;
+    }
+    
+    .menu-lateral-link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .menu-lateral-link:hover {
+        color: #000;
+    }
+    
+    .menu-lateral-icon {
+        width: 30px;
+    }
+    
+    .row.link-active {
+        background-color: #fff;
+    }
+    
+    .modal-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #171717;
+    }
+    
+    .form-label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14.5px;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 3px;
+    }
+    
+    .send-btn {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid transparent;
+        padding: 8px 30px;
+        transition: .3s;
+    }
+    
+    .send-btn:hover {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #ADADAD;
+        transition: .3s;
+    }
+    
+    .cancel-btn {
+        background-color: #fff;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid #adadad;
+        padding: 8px 25px;
+        transition: .3s;
+    }
+    
+    .cancel-btn:hover {
+        background-color: #000;
+        color: #fff;
+        transition: .3s;
+    }
+}
+
+/* Estilos Globais */
+.fixed-header {
+    position: fixed;
+    top: 0;
+}
+
+.pagamento-input {
+    border: none;
+}
+
+#sticky-wrapper {
+    position: relative;
+}
+
+.no-transitions {
+    transition: 0s !important;
+}
+

@@ -1,0 +1,180 @@
+<div id="admin-cover" class="position-relative">
+    <!-- Menu Desktop -->
+    <div class="d-none d-lg-block menu-lateral">
+        <div class="container mt-3">
+            <div class="row mb-3">
+                <div class="col-10 menu-text">
+                    <h1 class="admin-title">Admin</h1>
+                </div>
+                <div class="col-2 menu-icon-admin">
+                    <img id="menu-icon" class="admin-icon" src="assets/images/menu-icon.svg" alt="menu-icon">
+                </div>
+            </div>
+            <a class="menu-lateral-link" href="morana-admin">
+                <div class="row py-2">
+                    <div class="col-2 pr-0 text-right menu-icon">
+                        <img class="menu-lateral-icon" src="assets/images/gerenciar-prdutos-icon.svg" alt="Gerenciar Produtos">
+                    </div>
+                    <div class="col-10 text-left menu-text">
+                        <p>Gerenciar Produtos</p>
+                    </div>
+                </div>
+            </a>
+            <a class="menu-lateral-link" href="morana-admin-pagamentos">
+                <div class="row py-2">
+                    <div class="col-2 pr-0 text-right menu-icon">
+                        <img class="menu-lateral-icon" src="assets/images/gerenciar-pagamentos-icon.svg" alt="Gerenciar Pagamentos">
+                    </div>
+                    <div class="col-10 text-left menu-text">
+                        <p>Confirmar Pagamentos</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Menu Mobile -->
+    <div class="d-block d-lg-none container mobile-spacer">
+        <div class="row">
+            <div class="col-4 text-left">
+                <img id="menu-icon-mobile" class="admin-icon" src="assets/images/menu-icon.svg" alt="menu-icon">
+            </div>
+            <div class="col-8 d-flex justify-content-end">
+                <div class="search-wrapper">
+                    <img class="search-icon" src="assets/images/search-icon.svg" alt="Pesquisar produto cadastrado ">
+                    <input class="search-input" type="text" placeholder="Pesquisar Produto">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-none menu-overlay"></div>
+    <div class="d-none d-lg-none menu-lateral-mobile">
+        <div class="container mt-3">
+            <div class="row mb-3">
+                <div class="col-12 menu-icon-admin text-left">
+                    <img id="menu-close-mobile" class="admin-icon" src="assets/images/menu-close.svg" alt="menu-icon">
+                </div>
+            </div>
+            <a class="menu-lateral-link" href="morana-admin">
+                <div class="row py-2">
+                    <div class="col-2 pr-0 text-right menu-icon">
+                        <img class="menu-lateral-icon-mobile" src="assets/images/gerenciar-prdutos-icon.svg" alt="Gerenciar Produtos">
+                    </div>
+                    <div class="col-10 text-left menu-text-mobile">
+                        <p>Gerenciar Produtos</p>
+                    </div>
+                </div>
+            </a>
+            <a class="menu-lateral-link" href="morana-admin-pagamentos">
+                <div class="row py-2">
+                    <div class="col-2 pr-0 text-right menu-icon">
+                        <img class="menu-lateral-icon-mobile" src="assets/images/gerenciar-pagamentos-icon.svg" alt="Gerenciar Pagamentos">
+                    </div>
+                    <div class="col-10 text-left menu-text-mobile">
+                        <p>Confirmar Pagamentos</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="produtos-tela position-relative">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h1 class="page-title">Produtos Cadastrados</h1>
+                </div>
+                <div class="col-6 d-none d-lg-flex justify-content-end">
+                    <div class="search-wrapper">
+                        <img class="search-icon" src="assets/images/search-icon.svg" alt="Pesquisar produto cadastrado ">
+                        <input class="search-input" type="text" placeholder="Pesquisar Produto">
+                    </div>
+                </div>
+            </div>
+            <!-- Listagem dos Produtos Desktop -->
+            <div class="d-none d-md-flex row product-parent mt-4" data-product-id="1">
+                <div class="col">
+                    <h1 class="admin-type mb-3">Produto</h1>
+                    <img class="admin-produto-img" src="assets/images/colar-coracao.jpg" alt="Colar Morana Taguatinga">
+                </div>
+                <div class="col">
+                    <h1 class="admin-type mb-3">Nome</h1>
+                    <p class="admin-produto-description" data-modalInputName="nome">Colar Coração Dourado</p>
+                    <p class="admin-produto-description d-none" data-modalInputName="descricao">Colar em forma de Coração em cor dourado feito em tudo de bom</p>
+                </div>
+                <div class="col">
+                    <h1 class="admin-type mb-3 ">Ref</h1>
+                    <p class="admin-produto-description" data-modalInputName="ref">12345678912</p>
+                </div>
+                <div class="col">
+                    <h1 class="admin-type mb-3 ">Qtd</h1>
+                    <p class="admin-produto-description" data-modalInputName="quantidade">x3</p>
+                </div>
+                <div class="col">
+                    <h1 class="admin-type mb-3 ">Cor</h1>
+                    <p class="admin-produto-description" data-modalInputName="cor">Dourado</p>
+                </div>
+                <div class="col">
+                    <h1 class="admin-type mb-3 ">Categoria</h1>
+                    <p class="admin-produto-description" data-modalInputName="categoria">Colar</p>
+                </div>
+                <div class="col">
+                    <h1 class="admin-type mb-3 ">Preço</h1>
+                    <p class="admin-produto-description" data-modalInputName="preco">R$27,90</p>
+                </div>
+                <div class="col">
+                    <h1 class="admin-type mb-3 ">Pedido em:</h1>
+                    <p class="admin-produto-description">27/11/2019</p>
+                </div>
+                <div class="col d-flex align-items-end">
+                    <div class="row">
+                        <div class="col-6">
+                            <span class="passContent" data-toggle="modal" data-target="#confirmar-modal">
+                                <img class="admin-options-icon" src="assets/images/check-icon.svg" alt="Confirmar Pagamento" data-toggle="tooltip" data-placement="bottom" title="Pagamento Completo">
+                            </span>
+                        </div>
+                        <div class="col-6">
+                            <span class="passContent" data-toggle="modal" data-target="#cancelar-modal">
+                                <img class="admin-options-icon" src="assets/images/cancel-icon.svg" alt="Remover Produto" data-toggle="tooltip" data-placement="bottom" title="Pagamento Cancelado">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim Listagem dos Produtos Desktop-->
+            <!-- Listagem dos Produtos Mobile -->
+            <div class="d-flex d-md-none row no-gutters mt-4" data-product-id="1">
+                <div class="col-3">
+                    <img class="admin-produto-img" src="assets/images/colar-coracao.jpg" alt="Colar Morana Taguatinga">
+                </div>
+                <div class="col-3">
+                    <p class="admin-produto-description">Nome: Colar Coração Dourado</p>
+                    <p class="admin-produto-description">R$27,90</p>
+                    <p class="admin-produto-description">Qtd: x3</p>
+                </div>
+                <div class="col-3">
+                    <p class="admin-produto-description">Cat: Colar</p>
+                    <p class="admin-produto-description">Cor: Dourado</p>
+                    <p class="admin-produto-description">Venda: 27/11/2019</p>
+                </div>
+                <div class="col-3">
+                    <p class="admin-produto-description">Ref:</p>
+                    <p class="admin-produto-description">12345678912</p>
+                </div>
+                <div class="col-3 d-flex align-items-end">
+                    <div class="row">
+                        <div class="col-6">
+                            <span class="passContent" data-toggle="modal" data-target="#confirmar-modal">
+                                <img class="admin-options-icon" src="assets/images/check-icon.svg" alt="Confirmar Pagamento" data-toggle="tooltip" data-placement="bottom" title="Pagamento Completo">
+                            </span>
+                        </div>
+                        <div class="col-6">
+                            <span class="passContent" data-toggle="modal" data-target="#cancelar-modal">
+                                <img class="admin-options-icon" src="assets/images/cancel-icon.svg" alt="Remover Produto" data-toggle="tooltip" data-placement="bottom" title="Pagamento Cancelado">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim Listagem dos Produtos Mobile-->
+        </div>
+    </div>
+</div>

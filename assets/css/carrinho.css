@@ -1,0 +1,430 @@
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/calibri-bold.ttf);
+}
+
+/* Estilos para dispositivos móveis pequenos*/
+@media (max-width: 374px) {
+    .cart-title {
+        position: absolute;
+        top: 0;
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+    }
+
+    .cart-final-price {
+        position: absolute;
+        bottom: 0;
+        font-family: Calibri, sans-serif;
+        font-size: 13px;
+        color: #2A2A2A;
+    }
+    
+    .cart-description-img {
+        width: 100%;
+    }
+    
+    .cart-description {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        color: #2A2A2A;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 16px;    
+        max-height: 32px;     
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    
+    .cart-data {
+        font-family: Calibri, sans-serif;
+        font-size: 13px;
+        color: #2A2A2A;
+    }
+    
+    .cart-add-qtd {
+        cursor: pointer;
+        font-family: Calibri, sans-serif;
+        font-size: 13px;
+        color: #2A2A2A;
+    }
+    
+    .cart-remove-qtd {
+        cursor: pointer;
+        font-family: Calibri, sans-serif;
+        font-size: 13px;
+        color: #2A2A2A;
+    }
+    
+    .cart-total-title {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        color: #000;
+        font-weight: 600;
+    }
+    
+    .cart-total-price {
+        font-family: Calibri, sans-serif;
+        font-size: 22px;
+        color: #000;
+    }
+    
+    .cart-keep-shopping {
+        cursor: pointer;
+        border: 1px solid #707070;
+        background-color: #fff;
+        width: 100%;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: .4s;
+    }
+    
+    .cart-keep-shopping:hover {
+        background-color: #000000;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        transition: .5s;
+    }
+    
+    .cart-finish-order {
+        cursor: pointer;
+        border: 1px solid #707070;
+        background-color: #000000;
+        width: 100%;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: .5s;
+    }
+    
+    .cart-finish-order:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #000;
+        transition: .5s;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (min-width: 375px) and (max-width: 700px) {
+    .cart-title {
+        position: absolute;
+        top: 0;
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+    }
+
+    .cart-final-price {
+        position: absolute;
+        bottom: 0;
+        font-family: Calibri, sans-serif;
+        font-size: 16px;
+        color: #2A2A2A;
+    }
+    
+    .cart-description-img {
+        width: 100%;
+    }
+    
+    .cart-description {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        color: #2A2A2A;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        line-height: 16px;    
+        max-height: 32px;     
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    
+    .cart-data {
+        font-family: Calibri, sans-serif;
+        font-size: 16px;
+        color: #2A2A2A;
+    }
+    
+    .cart-add-qtd {
+        cursor: pointer;
+        font-family: Calibri, sans-serif;
+        font-size: 16px;
+        color: #2A2A2A;
+    }
+    
+    .cart-remove-qtd {
+        cursor: pointer;
+        font-family: Calibri, sans-serif;
+        font-size: 16px;
+        color: #2A2A2A;
+    }
+    
+    .cart-total-title {
+        font-family: Roboto, sans-serif;
+        font-size: 20px;
+        color: #000;
+        font-weight: 600;
+    }
+    
+    .cart-total-price {
+        font-family: Calibri, sans-serif;
+        font-size: 22px;
+        color: #000;
+    }
+    
+    .cart-keep-shopping {
+        cursor: pointer;
+        border: 1px solid #707070;
+        background-color: #fff;
+        width: 100%;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: .4s;
+    }
+    
+    .cart-keep-shopping:hover {
+        background-color: #000000;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        transition: .5s;
+    }
+    
+    .cart-finish-order {
+        cursor: pointer;
+        border: 1px solid #707070;
+        background-color: #000000;
+        width: 100%;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: .5s;
+    }
+    
+    .cart-finish-order:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #000;
+        transition: .5s;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width : 701px) and (max-width : 1023px) {
+    
+    .cart-title {
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .cart-description-img {
+        width: 100%;
+    }
+    
+    .cart-description {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #2A2A2A;
+    }
+    
+    .cart-data {
+        font-family: Calibri, sans-serif;
+        font-size: 18px;
+        color: #2A2A2A;
+    }
+    
+    .cart-add-qtd {
+        cursor: pointer;
+        font-family: Calibri, sans-serif;
+        font-size: 18px;
+        color: #2A2A2A;
+    }
+    
+    .cart-remove-qtd {
+        cursor: pointer;
+        font-family: Calibri, sans-serif;
+        font-size: 18px;
+        color: #2A2A2A;
+    }
+    
+    .cart-total-title {
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #2A2A2A;
+        font-weight: 600;
+    }
+    
+    .cart-total-price {
+        font-family: Calibri, sans-serif;
+        font-size: 22px;
+        color: #2A2A2A;
+    }
+    
+    .cart-keep-shopping {
+        cursor: pointer;
+        border: 1px solid #707070;
+        background-color: #fff;
+        width: 100%;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: .4s;
+    }
+    
+    .cart-keep-shopping:hover {
+        background-color: #000000;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        transition: .5s;
+    }
+    
+    .cart-finish-order {
+        cursor: pointer;
+        border: 1px solid #707070;
+        background-color: #000000;
+        width: 100%;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: .5s;
+    }
+    
+    .cart-finish-order:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #000;
+        transition: .5s;
+    }
+
+}
+
+/* Estilos para dispositivos Desktops e Laptops */
+@media (min-width: 1024px) {
+    .cart-title {
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #000;
+    }
+    
+    .cart-description-img {
+        width: 100%;
+    }
+    
+    .cart-description {
+        font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: #2A2A2A;
+    }
+    
+    .cart-data {
+        font-family: Calibri, sans-serif;
+        font-size: 18px;
+        color: #2A2A2A;
+    }
+    
+    .cart-add-qtd {
+        cursor: pointer;
+        font-family: Calibri, sans-serif;
+        font-size: 18px;
+        color: #2A2A2A;
+    }
+    
+    .cart-remove-qtd {
+        cursor: pointer;
+        font-family: Calibri, sans-serif;
+        font-size: 18px;
+        color: #2A2A2A;
+    }
+    
+    .cart-total-title {
+        font-family: Roboto, sans-serif;
+        font-size: 32px;
+        color: #2A2A2A;
+        font-weight: 600;
+    }
+    
+    .cart-total-price {
+        font-family: Calibri, sans-serif;
+        font-size: 38px;
+        color: #2A2A2A;
+    }
+    
+    .cart-keep-shopping {
+        cursor: pointer;
+        border: 1px solid #707070;
+        background-color: #fff;
+        width: 100%;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: .4s;
+    }
+    
+    .cart-keep-shopping:hover {
+        background-color: #000000;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        transition: .5s;
+    }
+    
+    .cart-finish-order {
+        cursor: pointer;
+        border: 1px solid #707070;
+        background-color: #000000;
+        width: 100%;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: .5s;
+    }
+    
+    .cart-finish-order:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #000;
+        transition: .5s;
+    }
+}
+
+/* Estilos Globais */
+.sticky-wrapper + #carrinho-cover {
+    margin-top: 150px;
+}
+

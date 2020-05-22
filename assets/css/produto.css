@@ -1,0 +1,274 @@
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/calibri-bold.ttf);
+}
+
+/* Estilos para dispositivos móveis pequenos*/
+@media (max-width: 374px) {
+    .sticky-wrapper + #product-cover {
+        margin-top: 130px;
+    }
+
+    .produto-name {
+        font-family: Roboto, sans-serif;
+        font-size: 28px;
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    .produto-description {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        color: #2A2A2A;
+        font-weight: 500;
+    }
+
+    .produto-curtidas {
+        font-family: Calibri, sans-serif;
+        font-size: 20px;
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    .produto-curtidas span, .produto-curtidas:hover span {
+        color: #FF0707;
+        font-size: 16px;
+    }
+
+    .produto-price {
+        font-family: Calibri, sans-serif;
+        font-size: 36px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .adicionar-btn {
+        background-color: #fff;
+        border: 1px solid #707070;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #000;
+        font-weight: 560;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: .5s;
+    }
+
+    .adicionar-btn:hover {
+        cursor: pointer;
+        background-color: #000;
+        border: 1px solid #707070;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 560;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: .5s;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (min-width: 375px) and (max-width: 700px) {
+    .sticky-wrapper + #product-cover {
+        margin-top: 130px;
+    }
+
+    .produto-name {
+        font-family: Roboto, sans-serif;
+        font-size: 28px;
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    .produto-description {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        color: #2A2A2A;
+        font-weight: 500;
+    }
+
+    .produto-curtidas {
+        font-family: Calibri, sans-serif;
+        font-size: 20px;
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    .produto-curtidas span, .produto-curtidas:hover span {
+        color: #FF0707;
+        font-size: 16px;
+    }
+
+    .produto-price {
+        font-family: Calibri, sans-serif;
+        font-size: 36px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .adicionar-btn {
+        background-color: #fff;
+        border: 1px solid #707070;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #000;
+        font-weight: 560;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: .5s;
+    }
+
+    .adicionar-btn:hover {
+        cursor: pointer;
+        background-color: #000;
+        border: 1px solid #707070;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 560;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: .5s;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width : 701px) and (max-width : 1023px) {
+    .sticky-wrapper + #product-cover {
+        margin-top: 130px;
+    }
+
+    .produto-name {
+        font-family: Roboto, sans-serif;
+        font-size: 32px;
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    .produto-description {
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+        color: #2A2A2A;
+        font-weight: 500;
+    }
+
+    .produto-curtidas {
+        font-family: Calibri, sans-serif;
+        font-size: 25px;
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    .produto-curtidas span, .produto-curtidas:hover span {
+        color: #FF0707;
+        font-size: 20px;
+    }
+
+    .produto-price {
+        font-family: Calibri, sans-serif;
+        font-size: 42px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .adicionar-btn {
+        background-color: #fff;
+        border: 1px solid #707070;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #000;
+        font-weight: 560;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: .5s;
+    }
+
+    .adicionar-btn:hover {
+        cursor: pointer;
+        background-color: #000;
+        border: 1px solid #707070;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 560;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: .5s;
+    }
+}
+
+/* Estilos para dispositivos Desktops e Laptops */
+@media (min-width: 1024px) {
+    .sticky-wrapper + #product-cover {
+        margin-top: 130px;
+    }
+
+    .produto-name {
+        font-family: Roboto, sans-serif;
+        font-size: 32px;
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    .produto-description {
+        font-family: Roboto, sans-serif;
+        font-size: 15px;
+        color: #2A2A2A;
+        font-weight: 500;
+    }
+
+    .produto-curtidas {
+        font-family: Calibri, sans-serif;
+        font-size: 25px;
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    .produto-curtidas span, .produto-curtidas:hover span {
+        color: #FF0707;
+        font-size: 20px;
+    }
+
+    .produto-price {
+        font-family: Calibri, sans-serif;
+        font-size: 42px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .adicionar-btn {
+        background-color: #fff;
+        border: 1px solid #707070;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #000;
+        font-weight: 560;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: .5s;
+    }
+
+    .adicionar-btn:hover {
+        cursor: pointer;
+        background-color: #000;
+        border: 1px solid #707070;
+        font-family: Roboto, sans-serif;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 560;
+        width: 100%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: .5s;
+    }
+}
+
+/* Estilos Globais */
