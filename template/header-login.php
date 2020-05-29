@@ -28,5 +28,5 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	</script>
 	<div class="site-wrap login d-flex align-content-center">
-		<div class="login-wrap w-100 m-auto">
+		<div class="login-wrap w-100 mt-5 m-lg-auto">
 
