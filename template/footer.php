@@ -1,7 +1,7 @@
 <footer class="site-footer bg-white position-relative">
     <div class="container">
         <div class="row">
-            <div class="col col-md-8">
+            <div class="col col-md-12">
                 <div class="row">
                     <div class="col-12 col-md-5">
                         <h2 class="footer-heading mb-4">Sobre nós</h2>
@@ -17,8 +17,8 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <h2 class="footer-heading mb-4">Nos Acompanhe!</h2>
-                        <a href="https://www.facebook.com/Morana-Acess%C3%B3rios-189015681627944/" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                        <a href="https://www.instagram.com/morana.taguatinga/?hl=pt" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                        <a href="https://www.facebook.com/Morana-Acess%C3%B3rios-189015681627944/" target="_blank" class="pl-0 pr-3"><span class="icon-facebook" style="font-size: 23px"></span></a>
+                        <a href="https://www.instagram.com/morana.taguatinga/?hl=pt" target="_blank" class="pl-3 pr-3"><span class="icon-instagram" style="font-size: 23px"></span></a>
                     </div>
                 </div>
             </div>
