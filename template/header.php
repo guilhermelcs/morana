@@ -35,8 +35,8 @@
 
 					<div class="col-6 text-left">
 						<ul class="social-media">
-							<li><a href="#" class=""><span class="icon-facebook"></span></a></li>
-							<li><a href="#" class=""><span class="icon-instagram"></span></a></li>
+							<li><a href="https://www.facebook.com/Morana-Acess%C3%B3rios-189015681627944/" target="_blank"><span class="icon-facebook"></span></a></li>
+							<li><a href="https://www.instagram.com/morana.taguatinga/?hl=pt" target="_blank"><span class="icon-instagram"></span></a></li>
 						</ul>
 					</div>
 					<div class="col-6">
